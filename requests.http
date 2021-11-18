@@ -1,0 +1,16 @@
+// get all accommodation
+GET http://localhost:3001/accommodation
+
+###
+
+// get one accommodation
+GET http://localhost:3001/accommodation/3
+
+###
+// get all review
+GET http://localhost:3001/review
+
+###
+
+// get one review
+GET http://localhost:3001/review/4
