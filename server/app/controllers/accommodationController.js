@@ -9,7 +9,7 @@ module.exports = {
 
             response.json({ 
                 message: 'All accommodation',
-                data: accommodation 
+                searchResult: accommodation
             });
         } catch (error) {
             next(error);
@@ -22,12 +22,27 @@ module.exports = {
             const accommodation = await accommodationDataMapper.getOneAccommodation(id);
             response.json({ 
                 message: 'one accommodation',
-                data: accommodation
+                searchResult: accommodation
             });
         } catch (error) {
             next(error);
         }
     },
+    async getReviewFromOneAccommodation(request, response, next) {
+        try {
+            const { id } = request.params;
+            const accommodation = await accommodationDataMapper.getReviewFromOneAccommodation(id);
+            console.log(accommodation)
+            response.json({ 
+                message: 'all reviews from one accomodation',
+                searchResult: accommodation
+            });
+           
+        } catch (error) {
+            next(error);
+        }
+    },
+    
 }
 
 

@@ -5,12 +5,12 @@ const { Pool } = require('pg');
 
 // Pool is in charge of connexions
 const pool = new Pool({
-        user:'postgres',
-        host:'localhost',
-        database:'airbnb',
-        password:'vanillaninja',
-        port: 5432,
-        // connectionString: process.env.DATABASE_URL,
+        // user:'postgres',
+        // host:'localhost',
+        // database:'airbnb',
+        // password:'vanillaninja',
+        // port: 5432,
+        connectionString: process.env.DATABASE_URL,
 })
 // module.exports = pool;
 module.exports = {

@@ -14,4 +14,9 @@ module.exports = {
         );
         return result.rows[0]
     },
+    async getReviewFromOneAccommodation(id) {
+        const result = await client.query(`SELECT * FROM "accommodation" INNER JOIN "review" ON accommodation_id = accommodation.id WHERE accommodation.id =  $1`, [id]
+        );
+        return result.rows
+    },
 }

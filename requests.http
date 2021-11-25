@@ -4,7 +4,7 @@ GET http://localhost:3001/accommodation
 ###
 
 // get one accommodation
-GET http://localhost:3001/accommodation/3
+GET http://localhost:3001/accommodation/4
 
 ###
 // get all review
@@ -14,3 +14,7 @@ GET http://localhost:3001/review
 
 // get one review
 GET http://localhost:3001/review/4
+
+
+###
+GET http://localhost:3001/accommodation/accomodationReview/4
