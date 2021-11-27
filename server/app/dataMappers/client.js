@@ -10,6 +10,9 @@ const pool = new Pool({
         // database:'airbnb',
         // password:'vanillaninja',
         // port: 5432,
+        ssl: {
+                rejectUnauthorized: false
+              },
         connectionString: process.env.DATABASE_URL,
 })
 // module.exports = pool;
