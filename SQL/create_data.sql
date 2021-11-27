@@ -1,21 +1,41 @@
+INSERT INTO "user" ("imageurl") 
+VALUES
+('https://static.cnews.fr/sites/default/files/styles/image_640_360/public/justin_bieber_nrj_valery_hache_afp.jpg?itok=mUdn2gKD'),
+('https://www.lalibre.be/resizer/NWyzn6jprd7hz7LL8Gwh6RVxpGY=/768x512/filters:quality(70):format(jpg):focal(465x240:475x230)/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/TJEHBKZIHBAWJORVEVSHJI2KGA.jpg'),
+('https://brandandcelebrities.com/wp-content/uploads/2016/03/comment-reserver-personnalite-evenement-0316-e1457112316523-300x300.jpg'),
+('https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2018-04/Miley-Cyrus-elue-celebrite-qui-a-la-plus-mauvaise-influence-.jpg'),
+('https://anniversaire-celebrite.com/upload/250x333/jamy-gourmaud-250.jpg'),
+('https://anniversaire-celebrite.com/upload/250x333/j-j-abrams-250.jpg'),
+('https://clairemedium.com/wp-content/uploads/2018/02/shakira-interpretation-reve-clairemedium.jpg'),
+('https://anniversaire-celebrite.com/upload/250x333/antonio-banderas-250.jpg'),
+('https://static1.purebreak.com/articles/0/17/66/50/@/675565-aya-nakamura-mal-a-l-aise-avec-la-celebr-diapo-1.jpg'),
+('https://resize-public.ladmedia.fr/img/var/public/storage/images/toutes-les-photos/selena-gomez-cameron-diaz-eva-longoria-ces-stars-latines-qui-ne-parlent-pas-espagnol-1626578/mark-consuelos-le-mari-de-kelly-ripa-est-ne-en-espagne-son-pere-est-mexicain-mais-il-ne-parle-pas-espagnol-en-revanche-il-parle-italien-1626588/41739543-1-fre-FR/MARK-CONSUELOS-le-mari-de-Kelly-Ripa-est-ne-en-Espagne.-Son-pere-est-mexicain-mais-il-ne-parle-pas-espagnol.-En-revanche-il-parle-italien-!.jpg'),
+('https://rplayprod.fr/wp-content/uploads/6237/c%C3%A9l%C3%A9brit%C3%A9-b%C3%A9lier-5f3e8f211dd55.jpg'),
+('https://siena.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2017/09/22/node_129730/366531/public/2017/09/22/B9713267289Z.1_20170922150803_000%2BGER9R6GET.1-0.jpg?itok=FvYuPZko1506085729'),
+('https://anniversaire-celebrite.com/upload/250x333/tom-arnold-250.jpg'),
+('https://fac.img.pmdstatic.net/scale/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2FFAC.2F2019.2F09.2F20.2F771d0eaf-ce9b-4bbd-9c70-8240716c7e4e.2Ejpeg/autox600/quality/65/adriana-karembeu-on-lui-donne-33-ans-elle-en-43.jpg'),
+('https://media.vanityfair.fr/photos/60df262bea8e064b129d0c4e/1:1/w_652,h_652,c_limit/vf_jennifer_lawrence_4505.jpeg');
+
+
+
 INSERT INTO "user" ("first_name", "email", "password" ) 
 VALUES
 
-('Arthur', 'arthur@gmail.com', 'vanilla'),
-('Rosali', 'rosali@gmail.com', 'airbnb'),
-('Brian', 'brian@gmail.com', 'malaga'),
-('Britney', 'britney@gmail.com', 'paris')
-('Illias', 'Illias@gmail.com', 'Illias'),
-('Abdelmoumene', 'Abdelmoumene@gmail.com', 'Abdelmoumene'),
-('Kimie', 'Kimie@gmail.com', 'Kimie'),
-('Will', 'Will@gmail.com', 'Will'),
-('Sidonie', 'Sidonie@gmail.com', 'Sidonie'),
-('Bruno', 'Bruno@gmail.com', 'Bruno'),
-('Jacob', 'Jacob@gmail.com', 'Jacob'),
-('Louis', 'Louis@gmail.com', 'Louis'),
-('Chris', 'Chris@gmail.com', 'Chris'),
-('Jessie', 'Jessie@gmail.com', 'Jessie'),
-('Rosa', 'Rosa@gmail.com', 'Rosa');
+('Arthur', 'arthur@gmail.com', 'vanilla', ),
+('Rosali', 'rosali@gmail.com', 'airbnb', ),
+('Brian', 'brian@gmail.com', 'malaga', ),
+('Britney', 'britney@gmail.com', 'paris', ),
+('Illias', 'Illias@gmail.com', 'Illias', ),
+('Abdelmoumene', 'Abdelmoumene@gmail.com', 'Abdelmoumene', ),
+('Kimie', 'Kimie@gmail.com', 'Kimie', ),
+('Will', 'Will@gmail.com', 'Will', ),
+('Sidonie', 'Sidonie@gmail.com', 'Sidonie', ),
+('Bruno', 'Bruno@gmail.com', 'Bruno', ),
+('Jacob', 'Jacob@gmail.com', 'Jacob', ),
+('Louis', 'Louis@gmail.com', 'Louis', ),
+('Chris', 'Chris@gmail.com', 'Chris', ),
+('Jessie', 'Jessie@gmail.com', 'Jessie', ),
+('Rosa', 'Rosa@gmail.com', 'Rosa', );
 
 
 INSERT INTO "review" ("name", "review", "rating", "user_id","accommodation_id" ) 
